@@ -77,7 +77,7 @@ function getParamsArray(config) {
   // https://help.aliyun.com/document_detail/29440.html?spm=a2c4g.11186623.6.592.20f13972khUg03
   const defaultConfig = {
     Format: 'JSON',
-    RegionId: 'cn-hangzhou',
+    RegionId: 'ap-southeast-1"',
     Version: '2015-11-23',
     SignatureMethod: 'HMAC-SHA1',
     Timestamp: new Date().toISOString(),
